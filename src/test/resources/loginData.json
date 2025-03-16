@@ -1,0 +1,53 @@
+{
+
+  "Login-credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "Invalid-credentails" : {
+    "username" : "mohamed",
+    "password" : "saied"
+  },
+
+ "Product-Details": {
+    "item1": {
+      "id" : "1",
+      "name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    "item2": {
+      "id" : "2",
+      "name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    },
+    "item3": {
+      "id" : "3",
+      "name": "Sauce Labs Bolt T-Shirt",
+      "price": "$15.99"
+    },
+   "item4": {
+     "id" : "4",
+     "name": "Sauce Labs Fleece Jacket",
+     "price": "$49.99"
+   },
+   "item5": {
+     "id" : "5",
+     "name": "Sauce Labs Onesie",
+     "price": "$7.99"
+   },
+   "item6": {
+     "id" : "6",
+     "name": "Test.allTheThings() T-Shirt (Red)",
+     "price": "$15.99"
+   }
+  },
+
+  "Form-Data" : {
+    "f-name" : "mohamed",
+    "l-name" : "saied",
+    "zip" : "01013435323"
+  },
+  "Finish-Msg" : {
+    "head-msg" : "Thank you for your order!"
+  }
+}

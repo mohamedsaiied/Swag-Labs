@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="Cart icon suite">
+    <listeners>
+        <listener class-name="Listener.TestNG_Listener"/>
+    </listeners>
+    <test name="Cart test">
+        <classes>
+            <class name="CartTest"/>
+        </classes>
+    </test>
+</suite>

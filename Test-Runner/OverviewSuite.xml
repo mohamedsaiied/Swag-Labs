@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="Overview suite">
+    <listeners>
+        <listener class-name="Listener.TestNG_Listener"/>
+    </listeners>
+    <test name="Overview test">
+        <classes>
+            <class name="OverviewTest"/>
+        </classes>
+    </test>
+</suite>
