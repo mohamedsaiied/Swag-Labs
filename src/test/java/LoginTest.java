@@ -41,7 +41,7 @@ public class LoginTest {
     }
 
     //TODO: CONFIGURATIONS
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp(){
 /*        String browser = System.getProperty("browser") != null ? System.getProperty("browser") : PropertiesUtils.getPropertyValue("browser");
         LogsUtils.info(System.getProperty("browser"));*/
@@ -49,7 +49,7 @@ public class LoginTest {
         new LoginPage(driver).navigateToLoginPage(driver);
         testData = new JsonUtils("loginData");
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         BrowserActions.closeBrowser(driver);
         CustomSoftAssert.customSoftAssertAll();
