@@ -59,14 +59,14 @@ public class LandingTest {
         tearDown();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp(){
         driver = DriverFactory.createDriver(PropertiesUtils.getPropertyValue("browser"));
         new LoginPage(driver).navigateToLoginPage(driver);
         CookiesUtils.restoreSession(driver,cookies);
         new LandingPage(driver).navigateToHomePage(driver);
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         BrowserActions.closeBrowser(driver);
     }
