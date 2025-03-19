@@ -75,9 +75,9 @@
                         <executions>
                             <execution>
                                 <phase>test</phase>
-                                <goals>
+                             <!--   <goals>
                                     <goal>serve</goal>
-                                </goals>
+                                </goals>-->
                             </execution>
                         </executions>
                         <configuration>
