@@ -1,0 +1,352 @@
+[INFO] - [19-03-2025 16:53:45] [main] [Listener.TestNG_Listener] - Text Execution Started
+[INFO] - [19-03-2025 16:53:45] [main] [Utilities.PropertiesUtils] - Loading Properties File Data
+[ERROR] - [19-03-2025 16:53:45] [main] [Utilities.FileUtils] - Error cleaning directory: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #1: Cannot delete file: test-outputs\logs\log_2025-03-19_16-53-45.log]
+[INFO] - [19-03-2025 16:54:02] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:54:21] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:54:21] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.ElementAction] - Data entered   in the field By.id: user-name
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.ElementAction] - Data entered   in the field By.id: password
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be visible By.cssSelector: [data-test='error']
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Waits] - Waiting for element to be present By.cssSelector: [data-test='error']
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.Scrolling] - Scrolling down to the element By.cssSelector: [data-test='error']
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.ElementAction] - getting text from the element By.cssSelector: [data-test='error'] text is Epic sadface: Username is required
+[INFO] - [19-03-2025 16:54:22] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:54:23] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:54:24] [main] [Listener.TestNG_Listener] - Test Case Passed : blankField
+[INFO] - [19-03-2025 16:54:24] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:54:43] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:54:58] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.ElementAction] - Data entered  standard_user in the field By.id: user-name
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.ElementAction] - Data entered  secret_sauce in the field By.id: password
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.BrowserActions] - current url is  https://www.saucedemo.com/inventory.html
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.BrowserActions] - title is  Swag Labs
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:54:59] [main] [Listener.TestNG_Listener] - Test Case Passed : successfullLogin
+[INFO] - [19-03-2025 16:54:59] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:55:07] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.ElementAction] - Data entered  standard_user in the field By.id: user-name
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:55:16] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.ElementAction] - Data entered   in the field By.id: password
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Waits] - Waiting for element to be visible By.cssSelector: [data-test='error']
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Waits] - Waiting for element to be present By.cssSelector: [data-test='error']
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.Scrolling] - Scrolling down to the element By.cssSelector: [data-test='error']
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.ElementAction] - getting text from the element By.cssSelector: [data-test='error'] text is Epic sadface: Password is required
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:55:17] [main] [Listener.TestNG_Listener] - Test Case Passed : unsuccessfullLogin
+[INFO] - [19-03-2025 16:55:17] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:55:24] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.ElementAction] - Data entered  standard_user in the field By.id: user-name
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.ElementAction] - Data entered  secret_sauce in the field By.id: password
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:55:30] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:55:31] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:55:31] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:55:35] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/inventory.html
+[INFO] - [19-03-2025 16:55:48] [main] [Pages.LandingPage] - number of all products : 6
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[1]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[1]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[1]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[1]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[1]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:55:48] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[4]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[4]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[4]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[4]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[4]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[6]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[6]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[6]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[6]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[6]
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - getting text from the element By.className: shopping_cart_link text is 6
+[INFO] - [19-03-2025 16:55:49] [main] [Pages.LandingPage] - number of products in cart : 6
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.ElementAction] - getting text from the element By.className: shopping_cart_link text is 6
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:55:49] [main] [Listener.TestNG_Listener] - Test Case Passed : addAllProductsToCart
+[INFO] - [19-03-2025 16:55:49] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:56:00] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:56:07] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:56:07] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/inventory.html
+[INFO] - [19-03-2025 16:56:07] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:56:07] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:56:07] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[2]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[3]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be clickable By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.ElementAction] - clicked on the element By.xpath: (//button[@class])[5]
+[INFO] - [19-03-2025 16:56:08] [main] [Pages.LandingPage] - selected products : 3
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.ElementAction] - getting text from the element By.className: shopping_cart_link text is 3
+[INFO] - [19-03-2025 16:56:08] [main] [Pages.LandingPage] - number of products in cart : 3
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.ElementAction] - getting text from the element By.className: shopping_cart_link text is 3
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:56:08] [main] [Listener.TestNG_Listener] - Test Case Passed : addRandomProduct
+[INFO] - [19-03-2025 16:56:08] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:56:14] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/inventory.html
+[INFO] - [19-03-2025 16:56:21] [main] [Pages.LandingPage] - AddingSauce Labs Bike Lightto cart
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Waits] - Waiting for element to be clickable [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Waits] - Waiting for element to be visible [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Waits] - Waiting for element to be present [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Scrolling] - Scrolling down to the element [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.ElementAction] - clicked on the element [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Waits] - Waiting for element to be visible [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Waits] - Waiting for element to be present [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.Scrolling] - Scrolling down to the element [unknown locator]
+[INFO] - [19-03-2025 16:56:21] [main] [Utilities.ElementAction] - getting text from the element [unknown locator] text is Remove
+[INFO] - [19-03-2025 16:56:22] [main] [Pages.LandingPage] - Sauce Labs Bike Lightadded to cart successfully
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.Waits] - Waiting for element to be clickable By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.ElementAction] - clicked on the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:56:22] [main] [Listener.TestNG_Listener] - Test Case Passed : addSpecificProductToCart
+[INFO] - [19-03-2025 16:56:22] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:56:26] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.ElementAction] - Data entered  standard_user in the field By.id: user-name
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.ElementAction] - Data entered  secret_sauce in the field By.id: password
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:56:32] [main] [Pages.LandingPage] - AddingTest.allTheThings() T-Shirt (Red)to cart
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be clickable [unknown locator]
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be visible [unknown locator]
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be present [unknown locator]
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Scrolling] - Scrolling down to the element [unknown locator]
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.ElementAction] - clicked on the element [unknown locator]
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be clickable By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:32] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.ElementAction] - clicked on the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//div[@class='inventory_item_name'])[1]
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//div[@class='inventory_item_name'])[1]
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//div[@class='inventory_item_name'])[1]
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.ElementAction] - getting text from the element By.xpath: (//div[@class='inventory_item_name'])[1] text is Test.allTheThings() T-Shirt (Red)
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.Waits] - Waiting for element to be visible By.xpath: (//div[@class='inventory_item_price'])[1]
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.Waits] - Waiting for element to be present By.xpath: (//div[@class='inventory_item_price'])[1]
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.Scrolling] - Scrolling down to the element By.xpath: (//div[@class='inventory_item_price'])[1]
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.ElementAction] - getting text from the element By.xpath: (//div[@class='inventory_item_price'])[1] text is $15.99
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:56:33] [main] [Listener.TestNG_Listener] - Test Case Passed : checkProductDetails
+[INFO] - [19-03-2025 16:56:33] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:56:37] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.ElementAction] - Data entered  standard_user in the field By.id: user-name
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.ElementAction] - Data entered  secret_sauce in the field By.id: password
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:56:46] [main] [Pages.LandingPage] - AddingSauce Labs Backpackto cart
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be clickable [unknown locator]
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be visible [unknown locator]
+[INFO] - [19-03-2025 16:56:46] [main] [Utilities.Waits] - Waiting for element to be present [unknown locator]
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element [unknown locator]
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - clicked on the element [unknown locator]
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be clickable By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - clicked on the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: checkout
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: checkout
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: checkout
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: checkout
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - clicked on the element By.id: checkout
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - Data entered  mohamed in the field By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - Data entered  saied in the field By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - Data entered  01013435323 in the field By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: first-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - getting text from input value  By.id: first-name text is : 
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: last-name
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - getting text from input value  By.id: last-name text is : 
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: postal-code
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.ElementAction] - getting text from input value  By.id: postal-code text is : 
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: continue
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be visible By.id: continue
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Waits] - Waiting for element to be present By.id: continue
+[INFO] - [19-03-2025 16:56:47] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: continue
+[INFO] - [19-03-2025 16:56:48] [main] [Utilities.ElementAction] - clicked on the element By.id: continue
+[INFO] - [19-03-2025 16:56:48] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
+[INFO] - [19-03-2025 16:56:48] [main] [Utilities.AllureUtils] - Log file attached to allure report
+[INFO] - [19-03-2025 16:56:48] [main] [Listener.TestNG_Listener] - Test Case Passed : checkFormData
+[INFO] - [19-03-2025 16:56:48] [main] [Utilities.BrowserActions] - closing the browser
+[INFO] - [19-03-2025 16:56:54] [main] [Driver.DriverFactory] - Driver created on: edge
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.BrowserActions] - Navigated to the url https://www.saucedemo.com/
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be visible By.id: user-name
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be present By.id: user-name
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: user-name
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.ElementAction] - Data entered  standard_user in the field By.id: user-name
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be visible By.id: password
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be present By.id: password
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: password
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.ElementAction] - Data entered  secret_sauce in the field By.id: password
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: login-button
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be visible By.id: login-button
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be present By.id: login-button
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: login-button
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.ElementAction] - clicked on the element By.id: login-button
+[INFO] - [19-03-2025 16:56:59] [main] [Pages.LandingPage] - AddingSauce Labs Backpackto cart
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be clickable [unknown locator]
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be visible [unknown locator]
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Waits] - Waiting for element to be present [unknown locator]
+[INFO] - [19-03-2025 16:56:59] [main] [Utilities.Scrolling] - Scrolling down to the element [unknown locator]
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - clicked on the element [unknown locator]
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be clickable By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - clicked on the element By.className: shopping_cart_link
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: checkout
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.id: checkout
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.id: checkout
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: checkout
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - clicked on the element By.id: checkout
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.id: first-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.id: first-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: first-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - Data entered  mohamed in the field By.id: first-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.id: last-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.id: last-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: last-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - Data entered  saied in the field By.id: last-name
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.id: postal-code
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.id: postal-code
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: postal-code
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - Data entered  01013435323 in the field By.id: postal-code
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be clickable By.id: continue
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.id: continue
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.id: continue
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.id: continue
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - clicked on the element By.id: continue
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.BrowserActions] - current url is  https://www.saucedemo.com/checkout-step-two.html
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.className: summary_subtotal_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.className: summary_subtotal_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: summary_subtotal_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - getting text from the element By.className: summary_subtotal_label text is Item total: $29.99
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.className: summary_tax_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.className: summary_tax_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: summary_tax_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - getting text from the element By.className: summary_tax_label text is Tax: $2.40
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be visible By.className: summary_total_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Waits] - Waiting for element to be present By.className: summary_total_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.Scrolling] - Scrolling down to the element By.className: summary_total_label
+[INFO] - [19-03-2025 16:57:00] [main] [Utilities.ElementAction] - getting text from the element By.className: summary_total_label text is Total: $32.39
+[INFO] - [19-03-2025 16:57:01] [main] [Utilities.AllureUtils] - Screenshot file attached to allure report
